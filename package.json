@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo 'Building app...' && mkdir -p dist && cp -r * dist/"
+}
+
+}
